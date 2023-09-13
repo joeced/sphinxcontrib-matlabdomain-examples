@@ -1,0 +1,35 @@
+Folders classes in 0.20.0
+-------------------------
+
+Given this MATLAB code
+
+.. code-block:: RST
+
+    @First/First.m
+    @First/method_in_folder.m
+
+.. literalinclude:: @First/First.m
+    :language: MATLAB
+    :caption: ``@First/First.m``
+
+.. literalinclude:: @First/method_in_folder.m
+    :language: MATLAB
+    :caption: ``@First/method_in_folder.m``
+
+and this RST
+
+.. code-block:: RST
+
+    .. currentmodule:: .
+
+    .. autoclass:: First
+        :show-inheritance:
+        :members:
+
+renders into
+
+.. currentmodule:: .
+
+.. autoclass:: First
+    :show-inheritance:
+    :members:
