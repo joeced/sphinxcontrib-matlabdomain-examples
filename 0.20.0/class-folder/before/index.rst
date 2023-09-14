@@ -8,17 +8,18 @@ Given this MATLAB code
     @First/First.m
     @First/method_in_folder.m
 
-.. literalinclude:: @First/First.m
+.. literalinclude:: ../matlab-files/@First/First.m
     :language: MATLAB
     :caption: ``@First/First.m``
 
-.. literalinclude:: @First/method_in_folder.m
+.. literalinclude:: ../matlab-files/@First/method_in_folder.m
     :language: MATLAB
     :caption: ``@First/method_in_folder.m``
 
 and this RST
 
 .. code-block:: RST
+
     .. currentmodule:: .
 
     .. autoclass:: @First.First
